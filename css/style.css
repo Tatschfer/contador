@@ -1,0 +1,49 @@
+* {
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../img/gradient.jpg');
+}
+
+
+.contador{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#counter{
+    font-weight: bold;
+    color: yellow;
+    text-align-last: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 300px;
+    margin-left: 300px;
+    align-items: center;
+
+}   
+
+.botoes{
+    font-size: 14px;
+    color: purple;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    border: purple;
+    border-style: dashed;
+}
+
+.rodape{
+    color: white;   
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20%;
+}
